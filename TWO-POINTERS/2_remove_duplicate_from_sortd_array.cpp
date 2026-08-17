@@ -11,7 +11,7 @@ int main(){
  int res =1;
 
  while (cm<nums.size()){
-    if(nums[cm]== nums[cm-1]){
+    if(nums[cm]== nums[off]){
         cm++;
     }
     else{
@@ -20,12 +20,10 @@ int main(){
         cm++;
         res++;
     }
-    return res;
- }
 
-    cout<<"result : "<<res;
-    
-    
-    return 0;
+ }
+ cout<<"total numbers of unique element is : "<<res;
+return 0;
+
 
 }
