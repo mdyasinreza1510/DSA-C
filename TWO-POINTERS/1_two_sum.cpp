@@ -18,3 +18,10 @@ using namespace std;
 //     }
 
 // }
+
+
+int main(){
+
+    int nums[7]={2,3,4,5,7,9,11};
+    int i=0 ;
+}
