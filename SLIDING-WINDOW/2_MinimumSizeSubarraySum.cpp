@@ -26,6 +26,9 @@ public:
         }
         high ++;
         // kui ki sum < hone pe loop se bahar aya isiliye wndow ka size increase krdiye taki naya el miljaye
-    }
+        }
+        if (ans == INT_MAX)
+            return 0;
+        return ans;
     }
 };
