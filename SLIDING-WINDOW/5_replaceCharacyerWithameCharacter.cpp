@@ -12,10 +12,10 @@ public:
             mp[s[high]]++; // sbse phle qidow me element add krte jarehain eg:- [a], [a,b], [a,b,a]
             maxFreq = max(maxFreq, mp[s[high]]); /* ab yaha pe max frequency ko nikalte jayenge eg [a:2,b:1] maxfreq=2;*/ 
             while ((high - low + 1) - maxFreq > k) { /* ab jab tak window ka size-max freq k se chota hai to window valid hai nahi to bada hone window shrink krenge */
-                mp[s[low]]--;
+                mp[s[low]]--;/* low wale element ki frequecny ko kam krenge aur window ka size chota krenge*/
                 low++;
             }
-            ans = max(ans, high - low + 1);
+            ans = max(ans, high - low + 1);/* ans m window ka max size store krlenegee*/
         }
 
         return ans;
