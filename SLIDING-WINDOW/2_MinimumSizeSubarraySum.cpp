@@ -10,7 +10,7 @@ public:
 
     // sbse pjle pura array ko traverse krenege aur hr element ka sum niklate jayenge 
     while (high <nums.size()){
-        sum += nums[hiugh] //2+3+1+2 .......
+        sum += nums[high] //2+3+1+2 .......
 
 
         // ab jaise hi sum target k >= hoga hme ans milgy hai hme bs window ka size nikalna hai aur minimum size ka window return krna hai 
