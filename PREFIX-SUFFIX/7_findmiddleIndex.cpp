@@ -1,4 +1,9 @@
 //1991
+#include<iostream>
+#include<string>
+#include<vector>
+#include<climits>
+using namespace std;
 class Solution {
 public:
     int findMiddleIndex(vector<int>& nums) {
